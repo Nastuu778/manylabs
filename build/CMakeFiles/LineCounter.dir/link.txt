@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/LineCounter.dir/src/ConsoleUI.cpp.o CMakeFiles/LineCounter.dir/src/Counter.cpp.o CMakeFiles/LineCounter.dir/src/Loggers.cpp.o CMakeFiles/LineCounter.dir/src/main.cpp.o -o LineCounter 
