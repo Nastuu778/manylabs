@@ -39,3 +39,10 @@ add_executable(LineCounterQt
 )
 target_link_libraries(LineCounterQt Qt5::Core Qt5::Gui Qt5::Widgets)
 target_include_directories(LineCounterQt PRIVATE include)
+# Сборка unit-тестов
+add_executable(CounterTest
+    src/CounterTest.cpp
+    src/Counter.cpp
+    src/Loggers.cpp
+)
+target_include_directories(CounterTest PRIVATE include)
